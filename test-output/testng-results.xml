@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DeltaSuite" duration-ms="15352" started-at="2016-09-04T10:42:29Z" finished-at="2016-09-04T10:42:44Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="13447" started-at="2016-09-04T10:42:29Z" finished-at="2016-09-04T10:42:42Z">
+      <class name="delta.main.DeltaDriver">
+        <test-method status="PASS" signature="initFrameWork()[pri:0, instance:delta.main.DeltaDriver@51efea79]" name="initFrameWork" is-config="true" duration-ms="175" started-at="2016-09-04T16:12:29Z" finished-at="2016-09-04T16:12:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initFrameWork -->
+        <test-method status="PASS" signature="launchApp(org.testng.xml.XmlTest)[pri:0, instance:delta.main.DeltaDriver@51efea79]" name="launchApp" is-config="true" duration-ms="8223" started-at="2016-09-04T16:12:30Z" finished-at="2016-09-04T16:12:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "ChromeTest" verbose:1[parameters:browser=>chrome][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=delta.main.DeltaDriver]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDriver@51efea79]" name="testScenarios" duration-ms="1287" started-at="2016-09-04T16:12:38Z" data-provider="getScenarios" finished-at="2016-09-04T16:12:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Scenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenarios -->
+        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:delta.main.DeltaDriver@51efea79]" name="quitApp" is-config="true" duration-ms="2333" started-at="2016-09-04T16:12:39Z" finished-at="2016-09-04T16:12:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testScenarios status=SUCCESS method=DeltaDriver.testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDriver@51efea79] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitApp -->
+        <test-method status="PASS" signature="endFrameWork()[pri:0, instance:delta.main.DeltaDriver@51efea79]" name="endFrameWork" is-config="true" duration-ms="544" started-at="2016-09-04T16:12:42Z" finished-at="2016-09-04T16:12:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endFrameWork -->
+      </class> <!-- delta.main.DeltaDriver -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="15352" started-at="2016-09-04T10:42:29Z" finished-at="2016-09-04T10:42:44Z">
+      <class name="delta.main.DeltaDriver">
+        <test-method status="PASS" signature="initFrameWork()[pri:0, instance:delta.main.DeltaDriver@457e2f02]" name="initFrameWork" is-config="true" duration-ms="175" started-at="2016-09-04T16:12:29Z" finished-at="2016-09-04T16:12:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initFrameWork -->
+        <test-method status="PASS" signature="launchApp(org.testng.xml.XmlTest)[pri:0, instance:delta.main.DeltaDriver@457e2f02]" name="launchApp" is-config="true" duration-ms="12938" started-at="2016-09-04T16:12:30Z" finished-at="2016-09-04T16:12:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "FirefoxTest" verbose:1[parameters:browser=>firefox][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=delta.main.DeltaDriver]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDriver@457e2f02]" name="testScenarios" duration-ms="1249" started-at="2016-09-04T16:12:43Z" data-provider="getScenarios" finished-at="2016-09-04T16:12:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Scenario1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenarios -->
+        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:delta.main.DeltaDriver@457e2f02]" name="quitApp" is-config="true" duration-ms="25" started-at="2016-09-04T16:12:44Z" finished-at="2016-09-04T16:12:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testScenarios status=SUCCESS method=DeltaDriver.testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDriver@457e2f02] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitApp -->
+        <test-method status="PASS" signature="endFrameWork()[pri:0, instance:delta.main.DeltaDriver@457e2f02]" name="endFrameWork" is-config="true" duration-ms="82" started-at="2016-09-04T16:12:44Z" finished-at="2016-09-04T16:12:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endFrameWork -->
+      </class> <!-- delta.main.DeltaDriver -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- DeltaSuite -->
+</testng-results>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DeltaSuite]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="hubURL" value="http://10.10.4.61:4444/wd/hub"/>
+  <test name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="delta.main.DeltaDriver">
+        <methods>
+          <include name="initFrameWork"/>
+          <include name="initFrameWork"/>
+          <include name="testScenarios"/>
+          <include name="launchApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- delta.main.DeltaDriver -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="delta.main.DeltaDriver">
+        <methods>
+          <include name="initFrameWork"/>
+          <include name="initFrameWork"/>
+          <include name="testScenarios"/>
+          <include name="launchApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- delta.main.DeltaDriver -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [DeltaSuite] -->
